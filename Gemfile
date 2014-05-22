@@ -4,7 +4,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 
 gem 'unicorn'
-gem 'sqlite3'
+# Use sqlite3 as the database for Active Record
+group :development, :test do
+  gem 'sqlite3'
+end
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 # Gems used only for assets and not required
 # in production environments by default.
