@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+Thailand:
+  country_name: Thailand
+
+France:
+  country_name: France
+
+Taiwan:
+  country_name: Taiwan
+
+South_Korea:
+  country_name: South Korea
+
+

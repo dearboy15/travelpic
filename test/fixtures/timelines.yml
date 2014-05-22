@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  text: MyString
+  time: 2013-05-16 18:14:32
+  user_id: admin
+  picture_id: one
+
+two:
+  text: MyString
+  time: 2013-05-16 18:14:32
+  user_id: admin
+  picture_id: one
+
+
+ 

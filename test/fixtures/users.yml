@@ -1,0 +1,38 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+admin:
+  username: admin
+  password: 7110eda4d09e062aa5e4a390b0a572ac0d2c0220
+  profileImage: profile/admin.jpg
+
+sarunyoo:
+  username: sarunyoo
+  password: 7110eda4d09e062aa5e4a390b0a572ac0d2c0220
+  profileImage: profile/profile1.jpg
+
+satoshi:
+  username: satoshi
+  password: 7110eda4d09e062aa5e4a390b0a572ac0d2c0220
+  profileImage:profile/profile2.jpg
+
+twitty:
+  username: twitty
+  password: 7110eda4d09e062aa5e4a390b0a572ac0d2c0220
+  profileImage: profile/profile3.jpg
+
+demon:
+  username: demon
+  password: 7110eda4d09e062aa5e4a390b0a572ac0d2c0220
+  profileImage: profile/profile4.jpg
+
+jon:
+  username: jon
+  password: 7110eda4d09e062aa5e4a390b0a572ac0d2c0220
+  profileImage: profile/profile5.jpg
+
+puff:
+  username: puff
+  password: 7110eda4d09e062aa5e4a390b0a572ac0d2c0220
+  profileImage: profile/profile6.jpg
+
+

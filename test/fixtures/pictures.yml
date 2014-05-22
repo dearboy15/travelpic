@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  picture_url: files/th1.png
+  country_id:Thailand
+  category_id: 1
+
+two:
+  picture_url: files/th2.png
+  country_id:Thailand
+  category_id: 1

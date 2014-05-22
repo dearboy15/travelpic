@@ -1,0 +1,33 @@
+<h1>Listing timelines</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th>Time</th>
+      <th>PIC</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @timelines.each do |timeline| %>
+    <tr>
+      <td><%= timeline[:text] %></td>
+      <td><%= timeline[:time] %></td>
+       <td><img src="<%= timeline[:picture_url] %>" </td>
+      <td><%= link_to 'Show', timeline %></td>
+      <td><%= link_to 'Edit', edit_timeline_path(timeline) %></td>
+      <td>
+<a data-confirm="Are you sure?" data-method="delete" href="/timelines/<%= timeline[:id]%>" rel="nofollow">Destroy</a>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br />
+
+<%= link_to 'New Timeline', new_timeline_path %>

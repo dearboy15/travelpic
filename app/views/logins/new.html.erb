@@ -1,0 +1,31 @@
+<% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<h1>Login</h1>
+
+ <%= form_for(@user, :url=>logins_path) do |f| %>
+  
+  <div class="field">
+    <%= f.label :username%><br />
+    <%= f.text_field :username, :cols => 40 %>
+  </div>
+   
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password, :cols => 40 %>
+  </div>
+ 
+  <div class="actions">
+    <%= f.submit value="login"%>
+  </div>
+<% end %>
+
+<%= link_to 'Sign Up!!', new_user_path %>
